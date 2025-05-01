@@ -1,0 +1,7 @@
+joblib==1.4.2
+sentence-transformers==4.0.2
+scikit-learn==1.6.1
+pyspellchecker==0.8.2
+vaderSentiment==3.3.2
+pandas==2.2.3
+torch==2.6.0

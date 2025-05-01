@@ -13,7 +13,7 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
-    install_requires=parse_requirements("requirements.txt"),
+    install_requires=parse_requirements("requirements-lib.txt"),
     python_requires=">=3.8",
     classifiers=[
         "Programming Language :: Python :: 3",
