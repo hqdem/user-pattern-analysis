@@ -75,3 +75,18 @@
     └───preprocessing # предварительная обработка сырого датасета
             preprocessing.ipynb # реализация предварительной обработки сырого датасета
 ```
+
+## Установка библиотеки
+
+1) Склонировать репозиторий - `git clone https://github.com/hqdem/user-pattern-analysis.git`
+2) С активированным виртуальным окружением выполнить команду `pip install <путь до клонированного репозитория>`
+3) Все готово к использованию. Слонированный репозиторий можно удалить.
+
+## Пример использования
+```python
+from chatcluster import predict_user_pattern
+
+if __name__ == '__main__':
+    pattern = predict_user_pattern(["hello can you explain me generics in go?", "wow, that's insane, thanks!"])
+    print(f'user pattern is {pattern}')
+```
