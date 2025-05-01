@@ -27,6 +27,26 @@
 │           model_wo_duplicates.pkl
 │
 └───src # папка с исходным кодом
+    ├───chatcluster # код устанавливаемой библиотеки
+    │   │   main.py
+    │   │   preprocessor.py
+    │   │   __init__.py
+    │   │
+    │   └───models # те же модели для устанавливаемой библиотеки
+    │       ├───gradient_boosting
+    │       │       model_lightgbm.pkl
+    │       │       model_lightgbm_wo_duplicates.pkl
+    │       │       model_xgboost.pkl
+    │       │       model_xgboost_wo_duplicates.pkl
+    │       │
+    │       ├───logistic_regression
+    │       │       model.pkl
+    │       │       model_wo_duplicates.pkl
+    │       │
+    │       └───random_forest
+    │               model.pkl
+    │               model_wo_duplicates.pkl
+    │
     ├───classification  # папка с алгоритмами классификации
     │   ├───gradient_boosting  # gradient boosting
     │   │       lightgbm.ipynb # lightgbm
