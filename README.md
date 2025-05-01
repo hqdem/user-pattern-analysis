@@ -11,6 +11,21 @@
 │               features_normalized.csv # нормализованные метки для кластеризации
 │               kmeans_clusters.csv     # результаты кластеризации Kmeans (метки + user_id + кластера)
 │
+├───models # папка с экспортом моделей
+│   ├───gradient_boosting # gradient boosting модели
+│   │       model_lightgbm.pkl
+│   │       model_lightgbm_wo_duplicates.pkl
+│   │       model_xgboost.pkl
+│   │       model_xgboost_wo_duplicates.pkl
+│   │
+│   ├───logistic_regression  # logistic regression модели
+│   │       model.pkl
+│   │       model_wo_duplicates.pkl
+│   │
+│   └───random_forest  # random forest модели
+│           model.pkl
+│           model_wo_duplicates.pkl
+│
 └───src # папка с исходным кодом
     ├───classification  # папка с алгоритмами классификации
     │   ├───gradient_boosting  # gradient boosting
